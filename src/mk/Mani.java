@@ -3,24 +3,21 @@
 package mk;
 public class Mani {
 	public static void main(String[] args) {
-		int num=678;
+		int x=5;
+		int y=3;
+		int z=7;
 		
-		int a=num/100;
-		int b=num%100;
-		int c=b/10;
-		int d =b%10;
-		
-		
-	
-		
-		
-		
-		
-		System.out.println(a);
-		System.out.println(c);
-		System.out.println(d);
-		
-
+		  x=x+y;      //a=a+b;
+		  y=x-y;     //b=a-b;
+		  x=x-y;     //a=a-b;
+		  
+		  y=y+z;
+		  z=y-z;
+		  y=y-z;
+		 
+		System.out.println(x);
+		System.out.println(y);
+		System.out.println(z);
 		
 		
 	}
