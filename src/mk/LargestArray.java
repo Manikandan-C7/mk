@@ -16,8 +16,7 @@ public class LargestArray {
 	  }
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+		// LARGEST NUM FIND IN ARRAY 		
 		int a[]= {20,50,40,10};
 		LargestArray la=new LargestArray();
 		int store=la.largest(a);
